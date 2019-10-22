@@ -3,6 +3,8 @@ Tom Jandke s77831@htw-dresden.de
 1.0, 21.10.2019 
 :toc: 
 :toc-title: Inhaltsverzeichnis
+:source-highlighter: highlightjs
+:xrefstyle: full
 // Platzhalter für weitere Dokumenten-Attribute 
 
 == Einführung
@@ -51,6 +53,37 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |bold&italic
 |**bold**&__italic__
 |Text mit Formatierung innerhalb eines Wortes
-
-*S*_o_ftw_a_r_e_ _E_ng_i_n_ee_r_i_ng
 |===
+**S**__o__ftw__a__r__e__ __E__ng__i__n__ee__``r__i__ng``
+
+=== Quellcode
+
+[source, c]
+----
+hello_world.c
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World\n");
+    return 0;
+}
+----
+
+=== Bilder
+
+.Screenshot VSCode mit AsciiDoc
+[#b1]
+image::Bild.png[Screenshot VSCode mit AsciiDoc]
+
+
+=== Verweise
+
+See <<Kennenlernen der Syntax>> to learn how to write paragraphs.
+
+Learn how to organize the document into <<Tabellen und Textformatierung>>.
+
+See <<Quellcode,hello_world.c>> to learn how to write paragraphs.
+
+Learn how to organize the document into <<b1>>.
