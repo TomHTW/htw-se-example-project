@@ -7,6 +7,7 @@ Tom Jandke s77831@htw-dresden.de
 :xrefstyle: full
 // Platzhalter für weitere Dokumenten-Attribute 
 
+Veränderung
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
 
